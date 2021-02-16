@@ -4,11 +4,13 @@ import "./App.css";
 import Row from "./components/Row/Row";
 import Hero from "./components/Hero/Hero";
 import requests from "./requests";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="app">
       {/* Navbar */}
+      <Navbar />
 
       {/* Hero */}
       <Hero />
